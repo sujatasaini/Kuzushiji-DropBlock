@@ -1,2 +1,2 @@
 # Japanese Character Recognition with Deep Convolutional Neural Networks using different Regularization methods.
-https://github.com/sujatasaini/Japanese-character-recognition/issues/1#issue-463829268
+![kmnist](https://user-images.githubusercontent.com/47734496/60606296-b794f480-9dd8-11e9-97fe-e5cb9ed2cd75.png)
