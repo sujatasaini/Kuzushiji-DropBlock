@@ -1,1 +1,1 @@
-## MNIST dataset recognition with DropBlock Regularization Methods.
+## MNIST Dataset Recognition with DropBlock Regularization Methods.
