@@ -12,4 +12,4 @@ Research Paper: https://www.ijrte.org/wp-content/uploads/papers/v8i2/B2923078219
 6. LeCun., “The MNIST database of handwritten digits,” 1998. http://yann.lecun.com/ exdb/mnist/.
 7.	H. Xiao et al. Fashion-MNIST: A MNIST-like fashion product database, 2017. Available: https: //github.com/zalandoresearch/fashion-mnist.
 8. https://github.com/MLearing/Keras-DropBlock
-9.. KMNIST Dataset is created by ROIS-DS Center for Open Data in the Humanities (CODH), 2018. Available: https://codh.rois.ac.jp/kmnist/.
+9. KMNIST Dataset is created by ROIS-DS Center for Open Data in the Humanities (CODH), 2018. Available: https://codh.rois.ac.jp/kmnist/.
