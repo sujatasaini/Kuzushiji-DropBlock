@@ -34,8 +34,8 @@ with DropBlock Regularization__" availble at (http://dx.doi.org/10.35940/ijrte.b
 
 ## Software requirements
 ### OS Requirements
-This package is supported for *macOS* and *Linux*. The package has been tested on the following systems:
-+ Windows: Pro (10)
+This code is supported for *Windows* *macOS* and *Linux*. The code has been tested on the following systems:
++ Windows: Professional (10)
 + macOS: Mojave (10.14.1)
 + Linux: Ubuntu 16.04
 
