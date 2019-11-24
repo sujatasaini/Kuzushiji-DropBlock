@@ -9,14 +9,14 @@
 - [Overview](##overview)
 - [Documentation](##documentation)
 - [System Requirements](##system-requirements)
-- [Installation Guide](## Installation-Guide :grinning:)
-- [Algorithm](## DCNN-DropBlock Algorithm's flow :ocean:)
-- [Data](## Get the data 💾)
-- [Results](## Benchmarks & Results 📈)
-- [Visualization](## Visualization :bar_chart:)
-- [Credits](## Credits :hibiscus:)
-- [Citation](## Citation :100:)
-- [License](##License :scroll:)
+- [Installation Guide](##installation-guide)
+- [Algorithm](## DCNN-DropBlock Algorithm's flow)
+- [Data](## Dataset)
+- [Results](## Benchmarks & Results)
+- [Visualization](## Visualization)
+- [Credits](## Credits)
+- [Citation](## Citation)
+- [License](#license)
 
 ## Overview
 
@@ -53,7 +53,7 @@ PyTorch
 Tensorflow
 DropBlock
 ```
-## Installation-Guide :grinning:
+## Installation-Guide
 
 In Bash, 
 ```
@@ -69,13 +69,12 @@ git clone https://github.com/sujatasaini/Kuzushiji-DropBlock
 cd Kuzushiji-DropBlock
 ```
 
-## DCNN-DropBlock Algorithm's flow :ocean:
-
+## DCNN-DropBlock Algorithm's flow
 ![Algorithm](https://raw.githubusercontent.com/sujatasaini/Kuzushiji-DropBlock/master/DropBlock.png)
 
-## Dataset :file_folder:
+## Dataset
 
-**Kuzushiji-MNIST** is a drop-in replacement for the MNIST dataset (28x28 grayscale, 70,000 images), provided in the original MNIST format as well as a NumPy format. Since MNIST restricts us to 10 classes, we chose one character to represent each of the 10 rows of Hiragana when creating Kuzushiji-MNIST.
+:file_folder: **Kuzushiji-MNIST** is a drop-in replacement for the MNIST dataset (28x28 grayscale, 70,000 images), provided in the original MNIST format as well as a NumPy format. Since MNIST restricts us to 10 classes, we chose one character to represent each of the 10 rows of Hiragana when creating Kuzushiji-MNIST.
 
 Kuzushiji-MNIST contains 70,000 28x28 grayscale images spanning 10 classes (one from each column of [hiragana](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Table_hiragana.svg/768px-Table_hiragana.svg.png)), and is perfectly balanced like the original MNIST dataset (6k/1k train/test for each class).
 
@@ -115,14 +114,14 @@ We recommend using balanced accuracy on the test set for evaluating on Kuzushiji
 
 The full dataset is available for download [here](http://codh.rois.ac.jp/kmnist/dataset/kkanji/kkanji.tar) (310MB). 
 
-## Get the data 💾
+## Get the data 
 
-🌟 You can run [`python download_data.py`](download_data.py) to interactively select and download any of these datasets!
+💾  You can run [`python download_data.py`](download_data.py) to interactively select and download any of these datasets!
     You can also download the data from [Kaggle](https://www.kaggle.com/anokas/kuzushiji)
 
-## Benchmarks & Results 📈
+## Benchmarks & Results 
 
-Results of our DCNN Model on MNIST, Fashion-MNIST Kuzushiji-MNIST and Kuzushiji-49, trained on Google Colab average over 3 runs.
+📈 Results of our DCNN Model on MNIST, Fashion-MNIST Kuzushiji-MNIST and Kuzushiji-49, trained on Google Colab average over 3 runs.
 
 |Models                           | MNIST | Fashion-MNIST | Kuzushiji-MNIST | Kuzushiji-49 |
 |---------------------------------|-------|---------------|-----------------|--------------|
@@ -143,38 +142,29 @@ Have more results to add to the table? Feel free to submit an [issue](https://gi
 |[MobileNet](Models/MobileNet/train.py)                                  | 99.20% | 93.04% | 95.09% | 91.06% |
 |[DCNN-DropBlock](DropBlock/Kuzushiji-MNIST/train.py)    | **99.47%** | **93.40%** | **97.66%** | **95.67%** |
 
-`* scheduled dropblock with block_size=5 and increasing drop_prob 
+:bar_chart: `* scheduled dropblock with block_size=5 and increasing drop_prob 
 from 0.0 to 0.25 over 5000 iterations`
 
 Example available [here](Kuzushiji-DropBlock/DropBlock/Kuzushiji-MNIST/train.py)
 
-## Visualization :bar_chart:
+## Visualization
 
 ![Graph](https://raw.githubusercontent.com/sujatasaini/Kuzushiji-DropBlock/master/accuracy_loss.png)
 
-## Credits :hibiscus:
+## Credits 
 
-1. [Keras-DropBlock](https://github.com/CyberZHG/keras-drop-block)
+1. [Keras-DropBlock](https://github.com/CyberZHG/keras-drop-block) :hibiscus:
 2. [KMNIST Dataset](https://github.com/rois-codh/kmnist)
 
-## Citation :100:
+## Citation 
 
-Please cite `Kuzushiji-DropBlock` in your publications if it helps your research:
-{
+Please cite `Kuzushiji-DropBlock` in your publications if it helps your research::100:
+
+`{
 -@article{2019,
--    doi = {10.35940/ijrte.b2923.078219},
--    url = {https://doi.org/10.35940%2Fijrte.b2923.078219},
--    year = 2019,
--    month = {jul},
--    publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}},
--    volume = {8},
--    number = {2},
--    pages = {3510--3515},
--    title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization},
--    journal = {International Journal of Recent Technology and Engineering}
-}
-
-##License :scroll:
+-    doi = {10.35940/ijrte.b2923.078219}, url = {https://doi.org/10.35940%2Fijrte.b2923.078219}, year = 2019, month = {jul}, publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}}, volume = {8}, number = {2}, pages = {3510--3515}, title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, journal = {International Journal of Recent Technology and Engineering}}
+`
+License :scroll:
 ----
 MIT
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
