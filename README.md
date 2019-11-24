@@ -9,14 +9,14 @@
 - [Overview](##overview)
 - [Documentation](##documentation)
 - [System Requirements](##system-requirements)
-- [Installation Guide](##installation-guide)
-- [Algorithm](## DCNN-DropBlock Algorithm's flow)
-- [Data](## Dataset)
-- [Results](## Benchmarks & Results)
-- [Visualization](## Visualization)
-- [Credits](## Credits)
-- [Citation](## Citation)
-- [License](#license)
+- [Installation Guide](## Installation-Guide :grinning:)
+- [Algorithm](## DCNN-DropBlock Algorithm's flow :ocean:)
+- [Data](## Get the data 💾)
+- [Results](## Benchmarks & Results 📈)
+- [Visualization](## Visualization :bar_chart:)
+- [Credits](## Credits :hibiscus:)
+- [Citation](## Citation :100:)
+- [License](##License :scroll:)
 
 ## Overview
 
@@ -174,7 +174,7 @@ Please cite `Kuzushiji-DropBlock` in your publications if it helps your research
 -    journal = {International Journal of Recent Technology and Engineering}
 }
 
-License :scroll:
+##License :scroll:
 ----
 MIT
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
