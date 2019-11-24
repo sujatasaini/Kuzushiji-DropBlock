@@ -161,18 +161,18 @@ Example available [here](Kuzushiji-DropBlock/DropBlock/Kuzushiji-MNIST/train.py)
 
 Please cite `Kuzushiji-DropBlock` in your publications if it helps your research::100:
 
--@article{2019,  /
-     doi = {10.35940/ijrte.b2923.078219}, /
-     url = {https://doi.org/10.35940%2Fijrte.b2923.078219}, /
-     year = 2019, /
-     month = {jul}, /
-     publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}}, /
-     volume = {8}, /
-     number = {2}, /
-     pages = {3510--3515}, /
-     title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, /
-     journal = {International Journal of Recent Technology and Engineering}/
-}/
+-@article{2019,<br>
+     doi = {10.35940/ijrte.b2923.078219}, <br>
+     url = {https://doi.org/10.35940%2Fijrte.b2923.078219}, <br>
+     year = 2019, <br>
+     month = {jul}, <br>
+     publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}}, <br>
+     volume = {8}, <br>
+     number = {2}, <br>
+     pages = {3510--3515}, <br>
+     title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, <br>
+     journal = {International Journal of Recent Technology and Engineering} <br>
+}
 ## License :scroll:
 ----
 MIT
