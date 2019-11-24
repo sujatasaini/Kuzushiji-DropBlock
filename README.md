@@ -11,11 +11,11 @@
 - [System Requirements](##system-requirements)
 - [Installation Guide](##installation-guide)
 - [Algorithm](##dcnn-dropblock algorithm's flow)
-- [Data](## Dataset)
-- [Results](## Benchmarks & Results)
-- [Visualization](## Visualization)
-- [Credits](## Credits)
-- [Citation](## Citation)
+- [Data](##Dataset)
+- [Results](##Benchmarks & Results)
+- [Visualization](##Visualization)
+- [Credits](##Credits)
+- [Citation](##Citation)
 - [License](#license)
 
 ## Overview
@@ -160,11 +160,18 @@ Example available [here](Kuzushiji-DropBlock/DropBlock/Kuzushiji-MNIST/train.py)
 
 Please cite `Kuzushiji-DropBlock` in your publications if it helps your research::100:
 
-`{
 -@article{2019,
--    doi = {10.35940/ijrte.b2923.078219}, url = {https://doi.org/10.35940%2Fijrte.b2923.078219}, year = 2019, month = {jul}, publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}}, volume = {8}, number = {2}, pages = {3510--3515}, title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, journal = {International Journal of Recent Technology and Engineering}}
-`
-License :scroll:
+-    doi = {10.35940/ijrte.b2923.078219}, 
+-    url = {https://doi.org/10.35940%2Fijrte.b2923.078219}, 
+-    year = 2019, month = {jul}, 
+-    publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}}, 
+-    volume = {8}, 
+-    number = {2}, 
+-    pages = {3510--3515}, 
+-    title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, 
+-    journal = {International Journal of Recent Technology and Engineering}
+}
+## License :scroll:
 ----
 MIT
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
