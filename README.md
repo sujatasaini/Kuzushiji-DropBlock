@@ -10,7 +10,7 @@
 - [Documentation](##documentation)
 - [System Requirements](##system-requirements)
 - [Installation Guide](##installation-guide)
-- [Algorithm](## dcnn-dropblock algorithm's flow)
+- [Algorithm](##dcnn-dropblock algorithm's flow)
 - [Data](## Dataset)
 - [Results](## Benchmarks & Results)
 - [Visualization](## Visualization)
