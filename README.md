@@ -161,7 +161,7 @@ Example available [here](Kuzushiji-DropBlock/DropBlock/Kuzushiji-MNIST/train.py)
 
 Please cite `Kuzushiji-DropBlock` in your publications if it helps your research::100:
 
--@article{2019,/
+-@article{2019,  /
      doi = {10.35940/ijrte.b2923.078219}, /
      url = {https://doi.org/10.35940%2Fijrte.b2923.078219}, /
      year = 2019, /
