@@ -1,6 +1,6 @@
 # Kuzushiji-DropBlock
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Downloads](https://img.shields.io/github/commit-activity/m/sujatasaini/Kuzushiji-DropBlock?label=downloads)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
+[![Downloads](https://img.shields.io/github/commit-activity/m/sujatasaini/Kuzushiji-DropBlock?label=downloads)](https://github.com/sujatasaini/Kuzushiji-DropBlock/master/)
 [![HitCount](http://hits.dwyl.io/sujatasaini/Kuzushiji-DropBlock.svg)](http://hits.dwyl.io/sujatasaini/Kuzushiji-DropBlock)
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 [![Issues](https://img.shields.io/github/issues/sujatasaini/Kuzushiji-DropBlock)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
