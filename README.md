@@ -162,16 +162,16 @@ Example available [here](Kuzushiji-DropBlock/DropBlock/Kuzushiji-MNIST/train.py)
 Please cite `Kuzushiji-DropBlock` in your publications if it helps your research::100:
 
 @article{2019,<br>
-&nbsp;&nbsp;&nbsp;    doi = {10.35940/ijrte.b2923.078219}, <br>
-&nbsp;&nbsp;&nbsp;     url = {https://doi.org/10.35940%2Fijrte.b2923.078219}, <br>
-&nbsp;&nbsp;&nbsp;     year = 2019, <br>
-&nbsp;&nbsp;&nbsp;     month = {jul}, <br>
-&nbsp;&nbsp;&nbsp;     publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}}, <br>
-&nbsp;&nbsp;&nbsp;     volume = {8}, <br>
-&nbsp;&nbsp;&nbsp;     number = {2}, <br>
-&nbsp;&nbsp;&nbsp;     pages = {3510--3515}, <br>
-&nbsp;&nbsp;&nbsp;     title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, <br>
-&nbsp;&nbsp;&nbsp;     journal = {International Journal of Recent Technology and Engineering} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     doi = {10.35940/ijrte.b2923.078219}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      url = {https://doi.org/10.35940%2Fijrte.b2923.078219}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      year = 2019, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      month = {jul}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      volume = {8}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      number = {2}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      pages = {3510--3515}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      journal = {International Journal of Recent Technology and Engineering} <br>
 }
 ## License :scroll:
 ----
