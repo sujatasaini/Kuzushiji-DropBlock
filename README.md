@@ -1,212 +1,176 @@
-# Japanese Character Recognition with Deep Convolutional Neural Networks using Different Regularization Methods.
-![kmnist](https://user-images.githubusercontent.com/47734496/60606296-b794f480-9dd8-11e9-97fe-e5cb9ed2cd75.png)
+# Kuzushiji-DropBlock
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Downloads](https://img.shields.io/github/commit-activity/m/sujatasaini/Kuzushiji-DropBlock?label=downloads)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
+[![HitCount](http://hits.dwyl.io/sujatasaini/Kuzushiji-DropBlock.svg)](http://hits.dwyl.io/sujatasaini/Kuzushiji-DropBlock)
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
+[![Issues](https://img.shields.io/github/issues/sujatasaini/Kuzushiji-DropBlock)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
+[![Contributors](https://img.shields.io/github/contributors/sujatasaini/Kuzushiji-DropBlock)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
+[![Licence](https://img.shields.io/github/license/sujatasaini/Kuzushiji-DropBlock)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
 
-Research Paper: https://www.ijrte.org/wp-content/uploads/papers/v8i2/B2923078219.pdf
+- [Overview](##overview)
+- [Documentation](##documentation)
+- [System Requirements](##system-requirements)
+- [Installation Guide](##installation-guide)
+- [Setting up the development environment](#setting-up-the-development-environment)
+- [License](#license)
+- [Issues](https://github.com/neurodata/mgcpy/issues)
 
-# Dillinger
+## Overview
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+Kuzushiji-Dropblock is a Project based on Recognizition of Japanese Historical Image classification.
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+## Documnetation
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+:memo: View our research paper titled "__Japanese Historical Character Recognition using
+Deep Convolutional Neural Network (DCNN)
+with DropBlock Regularization__" availble at (http://dx.doi.org/10.35940/ijrte.b2923.078219)
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+## System Requirements 
+### Hardware requirements
+ :rocket: `Kuzushiji-DropBlock` package requires only a standard computer with enough RAM to support the in-memory operations.
 
-# New Features!
+## Software requirements
+### OS Requirements
+This package is supported for *macOS* and *Linux*. The package has been tested on the following systems:
++ Windows: Pro (10)
++ macOS: Mojave (10.14.1)
++ Linux: Ubuntu 16.04
 
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
+### ML-Dependencies
+`Kuzushiji-DropBlock` mainly depends on the Python scientific stack.
 
+```
+Keras
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+PyTorch
+Tensorflow
+DropBlock
+```
+### Installation-Guide :grinning:
 
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
-
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
-### Tech
-
-Dillinger uses a number of open source projects to work properly:
-
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter
-* [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-### Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-$ cd dillinger
-$ npm install -d
-$ node app
+In Bash, 
+```
+pip install DropBlock2D
+```
+In Google Colab,
+```
+!pip install DropBlock2D
+```
+GitClone
+```
+git clone https://github.com/sujatasaini/Kuzushiji-DropBlock
+cd Kuzushiji-DropBlock
 ```
 
-For production environments...
+## DCNN-DropBlock Algorithm's flow :ocean:
 
-```sh
-$ npm install --production
-$ NODE_ENV=production node app
-```
+![Algorithm](https://raw.githubusercontent.com/sujatasaini/Kuzushiji-DropBlock/master/DropBlock.png)
 
-### Plugins
+## The Dataset :file_folder:
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+**Kuzushiji-MNIST** is a drop-in replacement for the MNIST dataset (28x28 grayscale, 70,000 images), provided in the original MNIST format as well as a NumPy format. Since MNIST restricts us to 10 classes, we chose one character to represent each of the 10 rows of Hiragana when creating Kuzushiji-MNIST.
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+Kuzushiji-MNIST contains 70,000 28x28 grayscale images spanning 10 classes (one from each column of [hiragana](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Table_hiragana.svg/768px-Table_hiragana.svg.png)), and is perfectly balanced like the original MNIST dataset (6k/1k train/test for each class).
 
+| File            | Examples | Download (MNIST format)    | Download (NumPy format)      |
+|-----------------|--------------------|----------------------------|------------------------------|
+| Training images | 60,000             | [train-images-idx3-ubyte.gz](http://codh.rois.ac.jp/kmnist/dataset/kmnist/train-images-idx3-ubyte.gz) (18MB) | [kmnist-train-imgs.npz](http://codh.rois.ac.jp/kmnist/dataset/kmnist/kmnist-train-imgs.npz) (18MB)   |
+| Training labels | 60,000             | [train-labels-idx1-ubyte.gz](http://codh.rois.ac.jp/kmnist/dataset/kmnist/train-labels-idx1-ubyte.gz) (30KB) | [kmnist-train-labels.npz](http://codh.rois.ac.jp/kmnist/dataset/kmnist/kmnist-train-labels.npz) (30KB)  |
+| Testing images  | 10,000             | [t10k-images-idx3-ubyte.gz](http://codh.rois.ac.jp/kmnist/dataset/kmnist/t10k-images-idx3-ubyte.gz) (3MB) | [kmnist-test-imgs.npz](http://codh.rois.ac.jp/kmnist/dataset/kmnist/kmnist-test-imgs.npz) (3MB)   |
+| Testing labels  | 10,000             | [t10k-labels-idx1-ubyte.gz](http://codh.rois.ac.jp/kmnist/dataset/kmnist/t10k-labels-idx1-ubyte.gz) (5KB)  | [kmnist-test-labels.npz](http://codh.rois.ac.jp/kmnist/dataset/kmnist/kmnist-test-labels.npz) (5KB) |
 
-### Development
+Mapping from class indices to characters: [kmnist_classmap.csv](http://codh.rois.ac.jp/kmnist/dataset/kmnist/kmnist_classmap.csv) (1KB)
 
-Want to contribute? Great!
+We recommend using standard top-1 accuracy on the test set for evaluating on Kuzushiji-MNIST.
 
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
+##### Which format do I download?
+If you're looking for a drop-in replacement for the MNIST or Fashion-MNIST dataset (for tools that currently work with these datasets), download the data in MNIST format.
 
-Open your favorite Terminal and run these commands.
+Otherwise, it's recommended to download in NumPy format, which can be loaded into an array as easy as:  
+`arr = np.load(filename)['arr_0']`.
 
-First Tab:
-```sh
-$ node app
-```
+**Kuzushiji-49**, as the name suggests, has 49 classes (28x28 grayscale, 270,912 images), is a much larger, but imbalanced dataset containing 48 Hiragana characters and one Hiragana iteration mark.
 
-Second Tab:
-```sh
-$ gulp watch
-```
+Kuzushiji-49 contains 270,912 images spanning 49 classes, and is an extension of the Kuzushiji-MNIST dataset.
 
-(optional) Third:
-```sh
-$ karma test
-```
-#### Building for source
-For production release:
-```sh
-$ gulp build --prod
-```
-Generating pre-built zip archives for distribution:
-```sh
-$ gulp build dist --prod
-```
-### Docker
-Dillinger is very easy to install and deploy in a Docker container.
+| File            | Examples |  Download (NumPy format)      |
+|-----------------|--------------------|----------------------------|
+| Training images | 232,365            | [k49-train-imgs.npz](http://codh.rois.ac.jp/kmnist/dataset/k49/k49-train-imgs.npz) (63MB)   |
+| Training labels | 232,365            | [k49-train-labels.npz](http://codh.rois.ac.jp/kmnist/dataset/k49/k49-train-labels.npz) (200KB)  |
+| Testing images  | 38,547             | [k49-test-imgs.npz](http://codh.rois.ac.jp/kmnist/dataset/k49/k49-test-imgs.npz) (11MB)   |
+| Testing labels  | 38,547             | [k49-test-labels.npz](http://codh.rois.ac.jp/kmnist/dataset/k49/k49-test-labels.npz) (50KB) |
 
-By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
+Mapping from class indices to characters: [k49_classmap.csv](http://codh.rois.ac.jp/kmnist/dataset/k49/k49_classmap.csv) (1KB)
 
-```sh
-cd dillinger
-docker build -t joemccann/dillinger:${package.json.version} .
-```
-This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
+We recommend using balanced accuracy on the test set for evaluating on Kuzushiji-49.
 
-Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+**Kuzushiji-Kanji** is an imbalanced dataset of total 3832 Kanji characters (64x64 grayscale, 140,426 images of both common and rare characters), ranging from 1,766 examples to only a single example per class.
 
-```sh
-docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
-```
+The full dataset is available for download [here](http://codh.rois.ac.jp/kmnist/dataset/kkanji/kkanji.tar) (310MB). 
 
-Verify the deployment by navigating to your server address in your preferred browser.
+## Get the data 💾
 
-```sh
-127.0.0.1:8000
-```
+🌟 You can run [`python download_data.py`](download_data.py) to interactively select and download any of these datasets!
+    You can also download the data from [Kaggle](https://www.kaggle.com/anokas/kuzushiji)
 
-#### Kubernetes + Google Cloud
+## Benchmarks & Results 📈
 
-See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
+Results of our DCNN Model on MNIST, Fashion-MNIST Kuzushiji-MNIST and Kuzushiji-49, trained on Google Colab average over 3 runs.
 
-# ResNet-9 CIFAR-10 Benchmark
+|Models                           | MNIST | Fashion-MNIST | Kuzushiji-MNIST | Kuzushiji-49 |
+|---------------------------------|-------|---------------|-----------------|--------------|
+|[DCNN-DropBlock](DropBlock/Kuzushiji-MNIST/train.py)     | **99.47%** | **93.40%** | **97.66%** | **95.67%** |
+|[DCNN-Dropout](Dropout/train.py)                         | 97.99% | 85.47% | 86.43% | 95.34% |
+|[DCNN-Spatial-Dropout](SpatialDropout/train.py)          | 97.17% | 84.44% |  81.08% | 58.18 |
 
+Have more results to add to the table? Feel free to submit an [issue](https://github.com/sujatasaini/Kuzushiji-DropBlock/issues/new) or [pull request](https://github.com/sujatasaini/Kuzushiji-DropBlock/compare)!
 
-Results for ResNet9 on CIFAR10, trained on 1 x NVidia V100 GPU, average over 3 runs:
-
-| Model                | Accuracy (%) | Time (s) |
-|----------------------|--------------|----------|
-| ResNet9              | 81.46        | 271      |
-| ResNet9 + DropBlock* | 81.65        | 288      |
+|Models                           | MNIST | Fashion-MNIST | Kuzushiji-MNIST | Kuzushiji-49 |
+|---------------------------------|-------|---------------|-----------------|--------------|
+|[Nearest Neighbor Baseline](Models/4-Nearest Neighbor Baseline/train.py)| 97.14% | 85.97% | 91.59% | 86.00% |
+|[Naive-Bayes](Models/Naive-Bayes/train.py)                              | 98.06% | 86.60% | 92.17% | 88.44% |
+|[AlexNet](Models/AlexNet/train.py)                                      | 98.19% | 87.47% | 91.82% | 81.01% |
+|[Simple CNN](Models/Simple CNN/train.py)                                | 99.08% | 92.54% | 95.02% | 90.42% |
+|[Transfer Learning with CNN](Models/Simple CNN/train.py)                | 99.34% | 97.46% | 97.06% | 83.96% |
+|[LeNet-5](Models/LeNet-5/train.py)                                      | 99.13% | 91.33% | 94.66% | 89.64% |
+|[MobileNet](Models/MobileNet/train.py)                                  | 99.20% | 93.04% | 95.09% | 91.06% |
+|[DCNN-DropBlock](DropBlock/Kuzushiji-MNIST/train.py)    | **99.47%** | **93.40%** | **97.66%** | **95.67%** |
 
 `* scheduled dropblock with block_size=5 and increasing drop_prob 
 from 0.0 to 0.25 over 5000 iterations`
 
-Example available [here](examples/resnet-cifar10.py)
+Example available [here](Kuzushiji-DropBlock/DropBlock/Kuzushiji-MNIST/train.py)
 
+## Visualization :bar_chart:
 
-### Todos
+![Graph](https://raw.githubusercontent.com/sujatasaini/Kuzushiji-DropBlock/master/accuracy_loss.png)
 
- - Write MORE Tests
- - Add Night Mode
+## Credits :hibiscus:
 
-License
+1. [Keras-DropBlock](https://github.com/CyberZHG/keras-drop-block)
+2. [KMNIST Dataset](https://github.com/rois-codh/kmnist)
+
+## Citation :100:
+
+Please cite `Kuzushiji-DropBlock` in your publications if it helps your research:
+@article{2019,
+	doi = {10.35940/ijrte.b2923.078219},
+	url = {https://doi.org/10.35940%2Fijrte.b2923.078219},
+	year = 2019,
+	month = {jul},
+	publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}},
+	volume = {8},
+	number = {2},
+	pages = {3510--3515},
+	title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization},
+	journal = {International Journal of Recent Technology and Engineering}
+}
+
+License :scroll:
 ----
-
 MIT
-
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
-
-# References
-1. Sujata Saini, Vishal Verma, "Japanese Historical Character Recognition using Deep Convolutional Neural Network (DCNN) with DropBlock Regularization," International Journal of Recent Technology and Engineering, Volume-8, Issue-2, July 2019.
-2. T. Clanuwat, M. Bober-Irizar, A. Kitamoto, A. Lamb, K. Yamamoto, and D. Ha, “Deep Learning for Classical Japanese Literature,” 32nd Conference on Neural Information Processing Systems), no. NeurIPS, 2018, pp. 1–8.
-3. G. V Ghiasi, Tsung-Yi Lin, Quoc Le, “DropBlock: A regularization method for convolutional networks,” 32nd Conference on Neural Information Processing Systems, no. NeurIPS, 2018, pp. 1–11.
-4. J. Tompson, R. Goroshin, A. Jain, Y. LeCun, and C. Bregler, “Efficient object localization using Convolutional Networks,” Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit., vol. 07-12-June-2015, 2015, pp. 648–656.
-5. S. Ioffe and C. Szegedy, “Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.”, ICML’15 Proceedings of the 32nd International Conference on Machine Learning, vol. 37, 2015, pp. 448-456.
-6. LeCun., “The MNIST database of handwritten digits,” 1998. http://yann.lecun.com/ exdb/mnist/.
-7.	H. Xiao et al. Fashion-MNIST: A MNIST-like fashion product database, 2017. Available: https: //github.com/zalandoresearch/fashion-mnist.
-8. Keras-DropBlock: https://github.com/MLearing/Keras-DropBlock
-9. KMNIST Dataset is created by ROIS-DS Center for Open Data in the Humanities (CODH), 2018. Available: https://codh.rois.ac.jp/kmnist/.
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
