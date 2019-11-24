@@ -1,6 +1,5 @@
 # Kuzushiji-DropBlock
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Downloads](https://img.shields.io/github/commit-activity/m/sujatasaini/Kuzushiji-DropBlock?label=downloads)](https://github.com/sujatasaini/Kuzushiji-DropBlock/master/)
 [![HitCount](http://hits.dwyl.io/sujatasaini/Kuzushiji-DropBlock.svg)](http://hits.dwyl.io/sujatasaini/Kuzushiji-DropBlock)
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 [![Issues](https://img.shields.io/github/issues/sujatasaini/Kuzushiji-DropBlock)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
@@ -11,9 +10,13 @@
 - [Documentation](##documentation)
 - [System Requirements](##system-requirements)
 - [Installation Guide](##installation-guide)
-- [Setting up the development environment](#setting-up-the-development-environment)
+- [Algorithm](## DCNN-DropBlock Algorithm's flow)
+- [Data](## Dataset)
+- [Results](## Benchmarks & Results)
+- [Visualization](## Visualization)
+- [Credits](## Credits)
+- [Citation](## Citation)
 - [License](#license)
-- [Issues](https://github.com/neurodata/mgcpy/issues)
 
 ## Overview
 
@@ -50,7 +53,7 @@ PyTorch
 Tensorflow
 DropBlock
 ```
-### Installation-Guide :grinning:
+## Installation-Guide :grinning:
 
 In Bash, 
 ```
@@ -70,7 +73,7 @@ cd Kuzushiji-DropBlock
 
 ![Algorithm](https://raw.githubusercontent.com/sujatasaini/Kuzushiji-DropBlock/master/DropBlock.png)
 
-## The Dataset :file_folder:
+## Dataset :file_folder:
 
 **Kuzushiji-MNIST** is a drop-in replacement for the MNIST dataset (28x28 grayscale, 70,000 images), provided in the original MNIST format as well as a NumPy format. Since MNIST restricts us to 10 classes, we chose one character to represent each of the 10 rows of Hiragana when creating Kuzushiji-MNIST.
 
@@ -157,18 +160,18 @@ Example available [here](Kuzushiji-DropBlock/DropBlock/Kuzushiji-MNIST/train.py)
 ## Citation :100:
 
 Please cite `Kuzushiji-DropBlock` in your publications if it helps your research:
-
-@article{2019,
-	doi = {10.35940/ijrte.b2923.078219},
-	url = {https://doi.org/10.35940%2Fijrte.b2923.078219},
-	year = 2019,
-	month = {jul},
-	publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}},
-	volume = {8},
-	number = {2},
-	pages = {3510--3515},
-	title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization},
-	journal = {International Journal of Recent Technology and Engineering}
+{
+-@article{2019,
+-    doi = {10.35940/ijrte.b2923.078219},
+-    url = {https://doi.org/10.35940%2Fijrte.b2923.078219},
+-    year = 2019,
+-    month = {jul},
+-    publisher = {Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - {BEIESP}},
+-    volume = {8},
+-    number = {2},
+-    pages = {3510--3515},
+-    title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization},
+-    journal = {International Journal of Recent Technology and Engineering}
 }
 
 License :scroll:
