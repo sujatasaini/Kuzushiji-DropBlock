@@ -137,8 +137,8 @@ Have more results to add to the table? Feel free to submit an [issue](https://gi
 |[4-Nearest Neighbor Baseline](Models/4-NearestNeighborBaseline/train.py)| 97.14% | 85.97% | 91.59% | 86.00% |
 |[Naive-Bayes](Models/Naive-Bayes/train.py)                              | 98.06% | 86.60% | 92.17% | 88.44% |
 |[AlexNet](Models/AlexNet/train.py)                                      | 98.19% | 87.47% | 91.82% | 81.01% |
-|[Simple CNN](Models/SimpleCNN/train.py)                                | 99.08% | 92.54% | 95.02% | 90.42% |
-|[Transfer Learning with CNN](Models/TransferLearningwithCNN/train.py)                | 99.34% | 97.46% | 97.06% | 83.96% |
+|[Simple CNN](Models/SimpleCNN/train.py)                                 | 99.08% | 92.54% | 95.02% | 90.42% |
+|[Transfer Learning with CNN](Models/Transfer Learning with CNN/train.py)| 99.34% | 97.46% | 97.06% | 83.96% |
 |[LeNet-5](Models/LeNet-5/train.py)                                      | 99.13% | 91.33% | 94.66% | 89.64% |
 |[MobileNet](Models/MobileNet/train.py)                                  | 99.20% | 93.04% | 95.09% | 91.06% |
 |[DCNN-DropBlock](DropBlock/Kuzushiji-MNIST/train.py)    | **99.47%** | **93.40%** | **97.66%** | **95.67%** |
