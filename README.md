@@ -122,7 +122,7 @@ The full dataset is available for download [here](http://codh.rois.ac.jp/kmnist/
 
 ## Benchmarks & Results 
 
-📈 Results of our DCNN Model on MNIST, Fashion-MNIST Kuzushiji-MNIST and Kuzushiji-49, trained on Google Colab average over 3 runs.
+📈 Results of our DCNN Model with different regularization methods (DropBlock, Dropout, SpatialDropout) on MNIST, Fashion-MNIST Kuzushiji-MNIST and Kuzushiji-49, trained on Google Colab average over 3 runs.
 
 |Models                           | MNIST | Fashion-MNIST | Kuzushiji-MNIST | Kuzushiji-49 |
 |---------------------------------|-------|---------------|-----------------|--------------|
