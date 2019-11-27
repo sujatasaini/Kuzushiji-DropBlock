@@ -10,7 +10,7 @@
 - [Documentation](#Documentation)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
-- [DCNN-DropBlock-Algorithm's-flow](#DCNN-DropBlock-Algorithm's-flow)
+- [DCNN-DropBlockAlgorithm's-flow](#DCNN--DropBlock-Algorithm's-flow)
 - [Dataset](#Dataset)
 - [Benchmarks and Results](#Benchmarks-and-Results)
 - [Visualization](#Visualization)
@@ -69,7 +69,7 @@ git clone https://github.com/sujatasaini/Kuzushiji-DropBlock
 cd Kuzushiji-DropBlock
 ```
 
-# DCNN DropBlock Algorithm's flow
+# DCNN-DropBlock Algorithm's flow
 
 ![Algorithm](https://raw.githubusercontent.com/sujatasaini/Kuzushiji-DropBlock/master/DropBlock.png)
 
