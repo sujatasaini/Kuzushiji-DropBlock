@@ -7,7 +7,7 @@
 [![Licence](https://img.shields.io/github/license/sujatasaini/Kuzushiji-DropBlock)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
 
 - [Overview](#overview)
-- [Documentation](#documentation)
+- [Documentation](#Documentation)
 - [System Requirements](##system-requirements)
 - [Installation Guide](##installation-guide)
 - [Algorithm](##DCNN-DropBlock-Algorithm's-flow)
