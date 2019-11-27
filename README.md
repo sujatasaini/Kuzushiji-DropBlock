@@ -120,7 +120,7 @@ The full dataset is available for download [here](http://codh.rois.ac.jp/kmnist/
 💾  You can run [`python download_data.py`](download_data.py) to interactively select and download any of these datasets!
     You can also download the data from [Kaggle](https://www.kaggle.com/anokas/kuzushiji)
 
-# Benchmarks & Results 
+# Benchmarks and Results 
 
 📈 Results of our DCNN Model with different regularization methods (DropBlock, Dropout, SpatialDropout) on MNIST, Fashion-MNIST Kuzushiji-MNIST and Kuzushiji-49, trained on Google Colab average over 3 runs.
 
@@ -154,8 +154,8 @@ Example available [here](DropBlock/Kuzushiji-MNIST/train.py)
 
 # Credits 
 
-1. [Keras-DropBlock](https://github.com/CyberZHG/keras-drop-block) :hibiscus:
-2. [KMNIST Dataset](https://github.com/rois-codh/kmnist)
+1. [Keras-DropBlock](https://github.com/CyberZHG/keras-drop-block) :four_leaf_clover:
+2. [KMNIST Dataset](https://github.com/rois-codh/kmnist) :cherry_blossom:
 
 # Citation 
 
