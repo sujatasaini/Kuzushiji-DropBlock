@@ -6,8 +6,8 @@
 [![Contributors](https://img.shields.io/github/contributors/sujatasaini/Kuzushiji-DropBlock)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
 [![Licence](https://img.shields.io/github/license/sujatasaini/Kuzushiji-DropBlock)](https://github.com/sujatasaini/Kuzushiji-DropBlock)
 
-- [Overview](##overview)
-- [Documentation](##documentation)
+- [Overview](#overview)
+- [Documentation](#documentation)
 - [System Requirements](##system-requirements)
 - [Installation Guide](##installation-guide)
 - [Algorithm](##DCNN-DropBlock-Algorithm's-flow)
@@ -18,11 +18,11 @@
 - [Citation](##Citation)
 - [License](#license)
 
-## Overview
+# Overview
 
 Kuzushiji-Dropblock is a Project based on Recognizition of Japanese Historical Image classification.
 
-## Documnetation
+# Documnetation
 
 :memo: View our research paper titled "__Japanese Historical Character Recognition using
 Deep Convolutional Neural Network (DCNN)
