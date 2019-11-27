@@ -173,7 +173,7 @@ Please cite `Kuzushiji-DropBlock` in your publications if it helps your research
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      journal = {International Journal of Recent Technology and Engineering} <br>
 }
-# License :scroll:
-----
-MIT
+# License 
+:scroll: MIT
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+----
