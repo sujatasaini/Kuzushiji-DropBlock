@@ -8,21 +8,21 @@
 
 - [Overview](#overview)
 - [Documentation](#Documentation)
-- [System Requirements](##system-requirements)
-- [Installation Guide](##installation-guide)
-- [Algorithm](##DCNN-DropBlock-Algorithm's-flow)
-- [Data](##Dataset)
-- [Results](##Benchmarks-&-Results)
-- [Visualization](##Visualization)
-- [Credits](##Credits)
-- [Citation](##Citation)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [Algorithm](#DCNN-DropBlock-Algorithm's-flow)
+- [Data](#Dataset)
+- [Results](#Benchmarks-&-Results)
+- [Visualization](#Visualization)
+- [Credits](#Credits)
+- [Citation](#Citation)
 - [License](#license)
 
 # Overview
 
 Kuzushiji-Dropblock is a Project based on Recognizition of Japanese Historical Image classification.
 
-# Documnetation
+# Documentation
 
 :memo: View our research paper titled "__Japanese Historical Character Recognition using
 Deep Convolutional Neural Network (DCNN)
@@ -53,7 +53,7 @@ PyTorch
 Tensorflow
 DropBlock
 ```
-## Installation-Guide
+# Installation-Guide
 
 In Bash, 
 ```
@@ -69,11 +69,11 @@ git clone https://github.com/sujatasaini/Kuzushiji-DropBlock
 cd Kuzushiji-DropBlock
 ```
 
-## DCNN-DropBlock Algorithm's flow
+# DCNN-DropBlock Algorithm's flow
 
 ![Algorithm](https://raw.githubusercontent.com/sujatasaini/Kuzushiji-DropBlock/master/DropBlock.png)
 
-## Dataset
+# Dataset
 
 :file_folder: **Kuzushiji-MNIST** is a drop-in replacement for the MNIST dataset (28x28 grayscale, 70,000 images), provided in the original MNIST format as well as a NumPy format. Since MNIST restricts us to 10 classes, we chose one character to represent each of the 10 rows of Hiragana when creating Kuzushiji-MNIST.
 
@@ -120,7 +120,7 @@ The full dataset is available for download [here](http://codh.rois.ac.jp/kmnist/
 💾  You can run [`python download_data.py`](download_data.py) to interactively select and download any of these datasets!
     You can also download the data from [Kaggle](https://www.kaggle.com/anokas/kuzushiji)
 
-## Benchmarks & Results 
+# Benchmarks & Results 
 
 📈 Results of our DCNN Model with different regularization methods (DropBlock, Dropout, SpatialDropout) on MNIST, Fashion-MNIST Kuzushiji-MNIST and Kuzushiji-49, trained on Google Colab average over 3 runs.
 
@@ -146,18 +146,18 @@ Have more results to add to the table? Feel free to submit an [issue](https://gi
 :bar_chart: `* scheduled dropblock with block_size=5 and increasing drop_prob 
 from 0.0 to 0.25 over 5000 iterations`
 
-Example available [here](Kuzushiji-DropBlock/DropBlock/Kuzushiji-MNIST/train.py)
+Example available [here](DropBlock/Kuzushiji-MNIST/train.py)
 
-## Visualization
+# Visualization
 
 ![Graph](https://raw.githubusercontent.com/sujatasaini/Kuzushiji-DropBlock/master/accuracy_loss.png)
 
-## Credits 
+# Credits 
 
 1. [Keras-DropBlock](https://github.com/CyberZHG/keras-drop-block) :hibiscus:
 2. [KMNIST Dataset](https://github.com/rois-codh/kmnist)
 
-## Citation 
+# Citation 
 
 Please cite `Kuzushiji-DropBlock` in your publications if it helps your research::100:
 
@@ -173,7 +173,7 @@ Please cite `Kuzushiji-DropBlock` in your publications if it helps your research
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      title = {Japanese Historical Character Recognition using Deep Convolutional Neural Network ({DCNN}) with Drop Block Regularization}, <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      journal = {International Journal of Recent Technology and Engineering} <br>
 }
-## License :scroll:
+# License :scroll:
 ----
 MIT
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
