@@ -111,7 +111,7 @@ The full dataset is available for download [here](http://codh.rois.ac.jp/kmnist/
 ## Get the data 
 
 💾  You can run [`python download_data.py`](download_data.py) to interactively select and download any of these datasets!
-    You can also download the data from [Kaggle](https://www.kaggle.com/anokas/kuzushiji) as well and participate in to [Kaggle Kuzushiji-MNIST](https://www.kaggle.com/anokas/kuzushiji)Competition.
+    You can also download the data from [Kaggle](https://www.kaggle.com/anokas/kuzushiji) as well as participate in to [Kaggle Kuzushiji Recognition](https://www.kaggle.com/c/kuzushiji-recognition) Competition.
 
 # Results 
 
