@@ -12,7 +12,7 @@
 - [Installation Guide](#installation-guide)
 - [DCNN DropBlock Algorithm flow](#DCNN-DropBlock-Algorithm-flow)
 - [Dataset](#Dataset)
-- [Benchmarks and Results](#Benchmarks-and-Results)
+- [Results](#Results)
 - [Visualization](#Visualization)
 - [Credits](#Credits)
 - [Citation](#Citation)
@@ -75,7 +75,7 @@ cd Kuzushiji-DropBlock
 
 # Dataset
 
-:file_folder: **Kuzushiji-MNIST** is a drop-in replacement for the MNIST dataset (28x28 grayscale, 70,000 images), provided in the original MNIST format as well as a NumPy format. Since MNIST restricts us to 10 classes, we chose one character to represent each of the 10 rows of Hiragana when creating Kuzushiji-MNIST.
+:file_folder: **Kuzushiji-MNIST** is a drop-in replacement for the MNIST dataset (28x28 grayscale, 70,000 images), provided in the original MNIST format as well as a NumPy format.
 
 Kuzushiji-MNIST contains 70,000 28x28 grayscale images spanning 10 classes (one from each column of [hiragana](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Table_hiragana.svg/768px-Table_hiragana.svg.png)), and is perfectly balanced like the original MNIST dataset (6k/1k train/test for each class).
 
@@ -88,15 +88,10 @@ Kuzushiji-MNIST contains 70,000 28x28 grayscale images spanning 10 classes (one 
 
 Mapping from class indices to characters: [kmnist_classmap.csv](http://codh.rois.ac.jp/kmnist/dataset/kmnist/kmnist_classmap.csv) (1KB)
 
-We recommend using standard top-1 accuracy on the test set for evaluating on Kuzushiji-MNIST.
-
-##### Which format do I download?
-If you're looking for a drop-in replacement for the MNIST or Fashion-MNIST dataset (for tools that currently work with these datasets), download the data in MNIST format.
-
-Otherwise, it's recommended to download in NumPy format, which can be loaded into an array as easy as:  
+it's recommended to download in NumPy format, which can be loaded into an array as easy as:  
 `arr = np.load(filename)['arr_0']`.
 
-**Kuzushiji-49**, as the name suggests, has 49 classes (28x28 grayscale, 270,912 images), is a much larger, but imbalanced dataset containing 48 Hiragana characters and one Hiragana iteration mark.
+**Kuzushiji-49**, has 49 classes (28x28 grayscale, 270,912 images), is a much larger, but imbalanced dataset containing 48 Hiragana characters and one Hiragana iteration mark.
 
 Kuzushiji-49 contains 270,912 images spanning 49 classes, and is an extension of the Kuzushiji-MNIST dataset.
 
@@ -109,8 +104,6 @@ Kuzushiji-49 contains 270,912 images spanning 49 classes, and is an extension of
 
 Mapping from class indices to characters: [k49_classmap.csv](http://codh.rois.ac.jp/kmnist/dataset/k49/k49_classmap.csv) (1KB)
 
-We recommend using balanced accuracy on the test set for evaluating on Kuzushiji-49.
-
 **Kuzushiji-Kanji** is an imbalanced dataset of total 3832 Kanji characters (64x64 grayscale, 140,426 images of both common and rare characters), ranging from 1,766 examples to only a single example per class.
 
 The full dataset is available for download [here](http://codh.rois.ac.jp/kmnist/dataset/kkanji/kkanji.tar) (310MB). 
@@ -118,9 +111,9 @@ The full dataset is available for download [here](http://codh.rois.ac.jp/kmnist/
 ## Get the data 
 
 💾  You can run [`python download_data.py`](download_data.py) to interactively select and download any of these datasets!
-    You can also download the data from [Kaggle](https://www.kaggle.com/anokas/kuzushiji)
+    You can also download the data from [Kaggle](https://www.kaggle.com/anokas/kuzushiji) as well and participate in to Kuzushiji Competition.
 
-# Benchmarks and Results 
+# Results 
 
 📈 Results of our DCNN Model with different regularization methods (DropBlock, Dropout, SpatialDropout) on MNIST, Fashion-MNIST Kuzushiji-MNIST and Kuzushiji-49, trained on Google Colab average over 3 runs.
 
