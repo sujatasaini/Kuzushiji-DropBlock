@@ -137,8 +137,7 @@ Have more results to add to the table? Feel free to submit an [issue](https://gi
 |[MobileNet](Models/MobileNet/train.py)                                  | 99.20% | 93.04% | 95.09% | 91.06% |
 |[DCNN-DropBlock](DropBlock/Kuzushiji-MNIST/train.py)    | **99.47%** | **93.40%** | **97.66%** | **95.67%** |
 
-:bar_chart: `* scheduled dropblock with block_size=5 and increasing drop_prob 
-from 0.0 to 0.25 over 5000 iterations`
+:bar_chart: `*Used dropblock with block_size=7 and keep_prob=0.8 over 100 iterations`
 
 Example available [here](DropBlock/Kuzushiji-MNIST/train.py)
 
